@@ -45,11 +45,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_ranges 00002dc8  00000000  00000000  0002af78  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line   0000dfb9  00000000  00000000  0002dd40  2**0
+ 21 .debug_line   0000dfbd  00000000  00000000  0002dd40  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_str    00003e23  00000000  00000000  0003bcf9  2**0
+ 22 .debug_str    00003e23  00000000  00000000  0003bcfd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_frame  00001a18  00000000  00000000  0003fb1c  2**2
+ 23 .debug_frame  00001a18  00000000  00000000  0003fb20  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 C:/Users/Dell/Desktop/blink/build/blink.elf:     file format elf32-littlearm
@@ -423,7 +423,7 @@ Disassembly of section .text:
 1000039c:	00c0      	lsls	r0, r0, #3
 1000039e:	f000 fc61 	bl	10000c64 <sleep_ms>
 100003a2:	f7ff ffd1 	bl	10000348 <turnOffAllLEDs>
-100003a6:	e7df      	b.n	10000368 <main+0x10>
+100003a6:	e7dc      	b.n	10000362 <main+0xa>
 100003a8:	00001388 	.word	0x00001388
 
 100003ac <gpio_set_function>:

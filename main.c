@@ -73,10 +73,11 @@ int main() {
     initLEDs();
 
     // Initial delay with all LEDs off for 5 seconds
-    sleep_ms(5000);
+    
 
     // Continuous cycle loop
     while (1) {
+        sleep_ms(5000);
         // Step 1: Turn on Red LED for 1 second, then off
         turnOnRedLED();
         sleep_ms(1000);

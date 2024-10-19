@@ -1551,9 +1551,9 @@ Discarded input sections
                 0x00000000       0x19 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.2
                 0x00000000        0xf CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text          0x00000000        0x0 C:\Users\Dell\AppData\Local\Temp\ccYI4bmn.o
- .data          0x00000000        0x0 C:\Users\Dell\AppData\Local\Temp\ccYI4bmn.o
- .bss           0x00000000        0x0 C:\Users\Dell\AppData\Local\Temp\ccYI4bmn.o
+ .text          0x00000000        0x0 C:\Users\Dell\AppData\Local\Temp\cci30VBg.o
+ .data          0x00000000        0x0 C:\Users\Dell\AppData\Local\Temp\cci30VBg.o
+ .bss           0x00000000        0x0 C:\Users\Dell\AppData\Local\Temp\cci30VBg.o
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -2209,7 +2209,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Dell\AppData\Local\Temp\ccYI4bmn.o
+ .boot2         0x10000000      0x100 C:\Users\Dell\AppData\Local\Temp\cci30VBg.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3091,7 +3091,7 @@ LOAD CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/
 LOAD CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 LOAD CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 LOAD CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-LOAD C:\Users\Dell\AppData\Local\Temp\ccYI4bmn.o
+LOAD C:\Users\Dell\AppData\Local\Temp\cci30VBg.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3184,7 +3184,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000059c       0x2c CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x000005c8       0x22 C:\Users\Dell\AppData\Local\Temp\ccYI4bmn.o
+                0x000005c8       0x22 C:\Users\Dell\AppData\Local\Temp\cci30VBg.o
  .ARM.attributes
                 0x000005ea       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3419,41 +3419,41 @@ LOAD linker stubs
  .debug_ranges  0x00002a78      0x118 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_ranges  0x00002b90      0x238 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_line     0x00000000     0xdfb9
- .debug_line    0x00000000      0x56b CMakeFiles/blink.dir/main.c.obj
- .debug_line    0x0000056b      0xee2 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000144d      0x1d7 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00001624      0x5dc CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
- .debug_line    0x00001c00      0x3ed CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001fed      0x393 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00002380     0x11ba CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000353a      0x27b CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000037b5     0x11f5 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000049aa     0x1c31 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000065db      0xedc CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000074b7      0xb96 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000804d      0x533 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00008580      0x2bf CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x0000883f      0x2f8 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00008b37      0x25d CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00008d94      0x4b3 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x00009247      0x4e7 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x0000972e      0x134 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00009862      0x23b CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x00009a9d      0x2d9 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x00009d76      0x42a CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x0000a1a0      0x39f CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x0000a53f      0x6a8 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x0000abe7       0x97 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000ac7e      0x3e4 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x0000b062      0x380 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x0000b3e2      0x1ce CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
- .debug_line    0x0000b5b0       0xc1 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000b671      0x1b9 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x0000b82a     0x124f CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000ca79       0xc5 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x0000cb3e      0x787 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x0000d2c5      0xcf4 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_line     0x00000000     0xdfbd
+ .debug_line    0x00000000      0x56f CMakeFiles/blink.dir/main.c.obj
+ .debug_line    0x0000056f      0xee2 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001451      0x1d7 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00001628      0x5dc CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x00001c04      0x3ed CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001ff1      0x393 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00002384     0x11ba CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000353e      0x27b CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x000037b9     0x11f5 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000049ae     0x1c31 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000065df      0xedc CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000074bb      0xb96 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00008051      0x533 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00008584      0x2bf CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x00008843      0x2f8 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00008b3b      0x25d CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00008d98      0x4b3 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x0000924b      0x4e7 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x00009732      0x134 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00009866      0x23b CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00009aa1      0x2d9 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00009d7a      0x42a CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x0000a1a4      0x39f CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x0000a543      0x6a8 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x0000abeb       0x97 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000ac82      0x3e4 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x0000b066      0x380 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x0000b3e6      0x1ce CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x0000b5b4       0xc1 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000b675      0x1b9 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x0000b82e     0x124f CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000ca7d       0xc5 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x0000cb42      0x787 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x0000d2c9      0xcf4 CMakeFiles/blink.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_str      0x00000000     0x3e23
  .debug_str     0x00000000      0x42e CMakeFiles/blink.dir/main.c.obj

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+c8d2b0914eead23095711de1755f9cf6 CMakeFiles/binary_data
+79b81d076c757987727960d31def8898 rp2350.rom.h
+1e02f67a0c2c0e3bedb32eff2a130b32 xip_ram_perms_elf.h
